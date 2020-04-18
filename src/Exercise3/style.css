@@ -1,0 +1,17 @@
+html{
+    background-color: azure;
+    font-family: Bahnschrift;
+    font-size: large;
+}
+
+.links:visited{
+   color : red;
+}
+
+.links:active{
+    color: gold;
+}
+
+.links:hover{
+    color: purple;
+}
