@@ -2,6 +2,24 @@ html{
     background-color: azure;
     font-family: Bahnschrift;
     font-size: large;
+    background-image: url("bubbles.jpg");
+    background-blend-mode: color-burn;
+}
+
+body{
+    align-self: center;
+}
+
+img{
+    float: right;
+}
+
+#header{
+    border-style: dashed;
+}
+
+.list{
+    border-style: inset;
 }
 
 .links:visited{

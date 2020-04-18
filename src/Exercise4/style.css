@@ -1,0 +1,87 @@
+html{
+    background-color: azure;
+    font-family: Bahnschrift;
+    font-size: large;
+
+}
+
+body{
+    background-color: azure;
+}
+
+.btn{
+    color: azure;
+    background-color: cornflowerblue;
+    padding: 2px;
+    font-family: Bahnschrift;
+    font-size: large;
+    border-style: groove;
+    border-radius: 2px;
+
+}
+
+.item2 {
+    grid-area: menu;
+    font-size: 30px;
+}
+.item3 {
+    grid-area: main;
+    font-size: 16px;
+}
+.item4 {
+    grid-area: right;
+    font-size: 16px;
+}
+.item5 {
+    grid-area: footer;
+    font-size: 45px;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+            'menu menu main main right right'
+            'menu menu footer footer right right';
+    grid-gap: 10px;
+    background-color: azure;
+    padding-TOP: 10px;
+}
+
+.grid-container > div {
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.flex-container > div {
+    background-color: lightgray;
+    width: auto;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+}
+
+#h1, #h2, #h3, #h4{
+    height: 50%;
+    width: 50%;
+}
+
+#h1,#h2{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#image{
+    float: bottom;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
